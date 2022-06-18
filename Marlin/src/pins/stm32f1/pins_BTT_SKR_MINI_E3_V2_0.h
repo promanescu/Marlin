@@ -52,11 +52,11 @@
   #define PS_ON_PIN                        PC13  // Power Supply Control
 #endif
 
-#define FAN1_PIN                           PC7
+//#define FAN1_PIN                           PC7
 
-#ifndef CONTROLLER_FAN_PIN
-  #define CONTROLLER_FAN_PIN               FAN1_PIN
-#endif
+//#ifndef CONTROLLER_FAN_PIN
+//  #define CONTROLLER_FAN_PIN               FAN1_PIN
+//#endif
 
 #if HAS_TMC_UART
   /**
